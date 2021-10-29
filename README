@@ -1,1 +1,8 @@
+# Unison counter ability
 
+Contains the `Counter t` ability to count stuff. Add to your Unison codebase by running:
+
+```pull git@github.com:olivierdeckers/unison-counter:.trunk .base.Counter```
+
+Then define a sum type to differentiate different counters (if you want to count multiple things):
+```unique type CounterType = Type1 | Type2```
